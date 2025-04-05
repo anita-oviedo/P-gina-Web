@@ -1,0 +1,63 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    font-size: 18px; /* El tamaño de la fuente principal */
+    background-color: #f3f4f8; /* Color de fondo más neutro */
+    color: #ffffff; /* Color del texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar la tarjeta */
+    align-items: center;
+    height: 100vh; /* Para centrar la tarjeta en la pantalla */
+}
+
+/* Estilos de la tarjeta */
+.card {
+    width: 300px; /* Ancho de la tarjeta */
+    background-color: hsl(0, 79%, 45%); /* Color de fondo de la tarjeta */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(236, 233, 233, 0.1); /* Sombra suave */
+    overflow: hidden; /* Para evitar desbordamientos en los bordes redondeados */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo de la imagen dentro de la tarjeta */
+.card img {
+    width: 80%; /* Imagen ajustada al 80% del ancho de la tarjeta */
+    border-radius: 50%; /* Hacer la imagen redonda */
+    margin-bottom: 15px; /* Espacio debajo de la imagen */
+}
+
+/* Título en la tarjeta */
+.card h1 {
+    color: #333333; /* Color del texto del título */
+    font-size: 24px; /* Tamaño de la fuente del título */
+    font-family: Georgia, serif; /* Familia tipográfica del título */
+    margin: 0;
+}
+
+/* Descripción en la tarjeta */
+.card p {
+    font-size: 16px; /* Tamaño de la fuente de la descripción */
+    color: #e4dde6; /* Color gris para el texto descriptivo */
+    margin-top: 10px;
+}
+
+/* Botón de acción */
+.card .btn {
+    background-color: #2f21f0; /* Color de fondo del botón */
+    color: #ece6f0; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    border-radius: 5px; /* Bordes redondeados en el botón */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Espacio encima del botón */
+    transition: background-color 0.3s ease; /* Efecto de transición */ra
+}
+
+.card .btn:hover {
+    background-color: #217474; /* Cambio de color al pasar el ratón */
+}
